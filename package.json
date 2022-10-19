@@ -1,0 +1,28 @@
+{
+  "name": "trading-bs-strategy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmblockcode/trading-bs-strategy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmblockcode/trading-bs-strategy/issues"
+  },
+  "homepage": "https://github.com/rmblockcode/trading-bs-strategy#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.6.3"
+  }
+}
